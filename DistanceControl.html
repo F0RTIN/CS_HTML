@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DISTANCE CONTROL</title>
+    <link rel="stylesheet" href="styles3.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap" rel="stylesheet">
+    <script src="script2.js"></script> 
+</head>
+
+<body>
+    <div class="header">DISTANCE CONTROL</div>
+    <div class="container">
+        <div class="buzz-buttons">
+            <button onclick="sendBuzz('buzz:ON')" class="buzz-on">BUZZ ON</button>
+            <button onclick="sendBuzz('buzz:OFF')" class="buzz-off">BUZZ OFF</button>
+        </div>
+        
+        <div class="led-buttons">
+            <button onclick="sendLed('led:ON')" class="led-on">LED ON</button>
+            <button onclick="sendLed('led:OFF')" class="led-off">LED OFF</button>
+        </div>
+
+        <button onclick="openWebSocket()" id="connect">CONNECT</button>
+    </div>
+    <a href="./sensor.html" class="back">BACK</a>
+</body>
+</html>

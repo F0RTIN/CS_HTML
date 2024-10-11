@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family:'Titillium Web', sans-serif;
+    display:flex;
+    flex-direction: column;
+    height: 100vh;            
+    background-color: #E5F9E0; 
+}
+
+.header{
+    font-size: 50px;
+    color: #40C9A2;
+    font-weight: 900;
+    text-align: center;
+    margin: 20px 0; 
+    width: 100%;
+    position: relative;
+    top: 0;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    height: 80%;
+    justify-content: center;
+    align-items: center;
+}
+
+.window{
+    display: flex;
+    width: 20vw;
+    height: 20vb;
+    border-radius: 10%;
+    justify-content: center;
+    align-items: center;
+    background-color: #A3F7B5;
+}
+
+#potValue{
+font-size: 5vw;
+color:white;
+}
+
+button{
+    font-size: 20px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#connect{
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    font-weight: 900;
+    font-size: 10px;
+    color:white;
+    background-color:#2F9C95 ;
+}
+
+.next{
+    position: absolute;
+    bottom: 30px;
+    right: 30px;
+    width: 80px;
+    height: 48px;
+    background-color:#2F9C95 ;
+    border-radius: 10%;
+    text-align: center;
+    font-weight: 900;
+    color: white;
+    font-size: 30px;
+    text-decoration: none;
+}

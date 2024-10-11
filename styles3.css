@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Titillium Web', sans-serif;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;            
+    background-color: #E5F9E0; 
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    height: 80%;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10%;
+}
+
+.header{
+    font-size: 50px;
+    color: #40C9A2;
+    font-weight: 900;
+    text-align: center;
+    margin: 20px 0; 
+    width: 100%;
+    position: relative;
+    top: 0;
+}
+
+button{
+    font-size: 20px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.buzz-buttons {
+    display: flex;
+    flex-direction: column;
+    margin-right: 50vw;
+    font-weight: 900;
+    color: white;
+}
+
+.led-buttons {
+    display: flex;
+    flex-direction: column; 
+    font-weight: 900;
+    color: white;
+}
+
+.buzz-on,.led-on{
+    color: white;
+    background-color:#A3F7B5;
+}
+
+#connect{
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    font-weight: 900;
+    font-size: 10px;
+    color:white;
+    background-color:#2F9C95 ;
+}
+
+
+.buzz-off,.led-off{
+    color: white;
+    background-color: red;
+}
+
+.buzz-off:hover,.led-off:hover{
+    background-color: rgba(255, 0, 0, 0.438);
+}
+
+.buzz-on:hover, .led-on:hover { 
+    background-color: #a3f7b5b3;
+}
+
+.back{
+    position: absolute;
+    bottom: 30px;
+    left: 30px;
+    width: 80px;
+    height: 48px;
+    background-color:#2F9C95 ;
+    border-radius: 10%;
+    text-align: center;
+    font-weight: 900;
+    color: white;
+    font-size: 30px;
+    text-decoration: none;
+}
